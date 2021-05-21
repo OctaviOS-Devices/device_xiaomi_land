@@ -247,3 +247,5 @@ VENDOR_SECURITY_PATCH := 2017-04-01
 # Inherit the common proprietary files
 -include vendor/xiaomi/land/BoardConfigVendor.mk
 
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+ALLOW_MISSING_DEPENDENCIES := true

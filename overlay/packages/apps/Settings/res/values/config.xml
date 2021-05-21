@@ -11,6 +11,11 @@ Source Project
 --> <!-- These resources are around just to allow their values to be customized 
      for different hardware and product builds.  Do not translate. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <!-- For Ultra Power Saving -->
+     <bool name="config_supportUltraPowerSaving">true</bool>
+
+     <!-- For Enabling Battery Heath -->
+     <bool name="config_supportBatteryHealth">true</bool>
 
   <!-- Battery Health -->
   <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string> 
